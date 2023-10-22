@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Bianca Rossetti - 2233420 -->
+<html lang="en">
+<head>
+    <!-- add what is needed -->
+    <title>Table Generator</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/site.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- hard code what is needed -->
+        <h1>Table Generator</h1>
+    </header>
+    <main>
+
+        <section id="formHere">
+                
+                <form >
+                    <!-- hard code the form widgets -->
+                    <fieldset>
+                        <label for="rows">Rows: </label>
+                        <input type="range" name="rows" id="rows" max="100" min="1">
+                        
+                        <label for="cols">Columns: </label>
+                        <input type="range" name="cols" id="cols" max="100" min="1">
+                    </fieldset>
+            
+                    <fieldset>
+                        <label for="color1">Color 1: </label>
+                        <input type="color" name="color1" id="color1" value="#000000">
+                        
+                        <label for="color2">Color 2: </label>
+                        <input type="color" name="color2" id="color2" value="#FFFFFF">
+                    </fieldset>
+            
+                </form>
+            </section>
+
+        <section id="tableHere">
+            <!-- boiler code for table -->
+            <table></table>
+        </section>
+    </main>
+    <footer>
+        <!-- hard code the footer -->
+        <h4>Bianca Rossetti</h4>
+        <h4>September 27, 2023</h4>
+    </footer>
+</body>
+
+</html>
